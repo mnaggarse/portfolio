@@ -13,7 +13,7 @@ import {
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <Card className="w-full md:w-fit pt-0 overflow-hidden">
+    <Card className="w-full md:w-fit pt-0 overflow-hidden hover:shadow-lg transition-shadow duration-300">
       <Image
         width="300"
         height="300"
