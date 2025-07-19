@@ -4,9 +4,9 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="flex flex-col items-center justify-center w-full gap-8 text-center border-b pt-35 pb-20"
+      className="flex flex-col items-center justify-center w-full gap-4 text-center border-b pt-35 pb-20"
     >
-      <h1 className="text-5xl font-[900] leading-12 text-slate-800">
+      <h1 className="text-4xl md:text-5xl font-[900] leading-12 text-slate-800">
         Mahmoud Elnaggar
       </h1>
 
