@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "./ui/button";
 
 export default function Hero() {
@@ -18,7 +19,9 @@ export default function Hero() {
       </p>
 
       <div className="flex flex-col items-center justify-center w-full gap-4 md:flex-row">
-        <Button size="lg">View My Work</Button>
+        <Link href="#projects">
+          <Button size="lg">View My Work</Button>
+        </Link>
         <Button size="lg" variant="outline">
           Download My CV
         </Button>
