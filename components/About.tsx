@@ -2,8 +2,11 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="flex flex-col items-center justify-center w-full gap-16 border-b py-18">
-      <h2 className="text-4xl font-bold">About Me</h2>
+    <section
+      id="about"
+      className="flex flex-col items-center justify-center w-full gap-16 border-b py-18"
+    >
+      <h2 className="text-center text-4xl font-bold">About Me</h2>
       <div className="flex flex-col md:flex-row justify-center items-center gap-8">
         <Image
           width="400"
@@ -12,7 +15,7 @@ export default function About() {
           alt="Profile Picture"
           className="rounded-lg shadow-xl"
         />
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 px-2">
           <h3 className="text-xl font-bold">
             Hello! I&apos;m Mahmoud, a passionate developer.
           </h3>
