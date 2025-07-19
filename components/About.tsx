@@ -8,23 +8,23 @@ export default function About() {
         <Image
           width="400"
           height="400"
-          src="https://static.vecteezy.com/system/resources/previews/036/594/092/non_2x/man-empty-avatar-photo-placeholder-for-social-networks-resumes-forums-and-dating-sites-male-and-female-no-photo-images-for-unfilled-user-profile-free-vector.jpg"
+          src="https://placehold.co/400x400/png?text=Profile+Picture"
           alt="Profile Picture"
           className="rounded-lg shadow-xl"
         />
         <div className="flex flex-col gap-4">
           <h3 className="text-xl font-bold">
-            Hello! I'm Alex, a passionate developer.
+            Hello! I&apos;m Mahmoud, a passionate developer.
           </h3>
           <p className="text-slate-600 font-medium">
-            I'm a full-stack developer with over 5 years of experience creating
-            digital solutions that make a difference. I specialize in React,
-            Node.js, and modern web technologies.
+            I&apos;m a full-stack developer with over 5 years of experience
+            creating digital solutions that make a difference. I specialize in
+            React, Node.js, and modern web technologies.
           </p>
           <p className="text-slate-600 font-medium">
-            When I'm not coding, you can find me exploring new technologies,
-            contributing to open source projects, or enjoying a good cup of
-            coffee while reading about the latest in tech.
+            When I&apos;m not coding, you can find me exploring new
+            technologies, contributing to open source projects, or enjoying a
+            good cup of coffee while reading about the latest in tech.
           </p>
           <p className="text-slate-600 font-medium">
             I believe in writing clean, maintainable code and creating user
