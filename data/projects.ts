@@ -7,7 +7,7 @@ export const projects: Project[] = [
     name: "Project One",
     description: "This is a brief description of Project One.",
     technologies: ["React", "Next.js", "TypeScript"],
-    link: "",
+    link: "#",
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ export const projects: Project[] = [
     name: "Project Two",
     description: "This is a brief description of Project Two.",
     technologies: ["Vue.js", "Nuxt.js", "JavaScript"],
-    link: "",
+    link: "#",
   },
   {
     id: "3",
@@ -23,6 +23,6 @@ export const projects: Project[] = [
     name: "Project Three",
     description: "This is a brief description of Project Three.",
     technologies: ["Angular", "TypeScript", "RxJS"],
-    link: "",
+    link: "#",
   },
 ];
