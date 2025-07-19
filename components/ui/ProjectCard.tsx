@@ -25,7 +25,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         <CardTitle>{project.name}</CardTitle>
         <CardDescription>{project.description}</CardDescription>
         <CardFooter className="p-0 mt-4">
-          <Link className="w-full" href={project.link} target="_blank">
+          <Link className="w-full" href={project.link}>
             <Button className="w-full">
               <ExternalLink />
               Preview
