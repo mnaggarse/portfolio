@@ -3,7 +3,7 @@ import { Menu } from "lucide-react";
 export default function Navbar() {
   return (
     <nav className="fixed w-full bg-white border-b">
-      <div className="flex items-center justify-between max-w-5xl px-6 py-4 mx-auto md:px-12">
+      <div className="flex items-center justify-between max-w-5xl px-6 py-4 mx-auto">
         <h1 className="text-3xl font-bold">M.Elnaggar</h1>
 
         <Menu size={30} className="cursor-pointer md:hidden" />
