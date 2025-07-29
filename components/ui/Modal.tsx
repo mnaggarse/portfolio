@@ -69,47 +69,41 @@ export default function Modal({
     return (
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black">
         {/* Close button */}
-        <Button
-          variant="ghost"
-          size="sm"
+        <button
           onClick={() => setFullscreenImage(null)}
-          className="absolute top-4 right-4 h-10 w-10 p-0 bg-black/50 hover:bg-black/70 text-white"
+          className="absolute top-4 right-4 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
         >
           <X className="h-6 w-6" />
-        </Button>
+        </button>
 
         {/* Navigation buttons */}
         {images.length > 1 && (
           <>
-            <Button
-              variant="ghost"
-              size="sm"
+            <button
               onClick={() =>
                 setFullscreenImage(
                   fullscreenImage > 0 ? fullscreenImage - 1 : images.length - 1
                 )
               }
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 h-12 w-12 p-0 bg-black/50 hover:bg-black/70 text-white"
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
             >
               <ChevronLeft className="h-8 w-8" />
-            </Button>
-            <Button
-              variant="ghost"
-              size="sm"
+            </button>
+            <button
               onClick={() =>
                 setFullscreenImage(
                   fullscreenImage < images.length - 1 ? fullscreenImage + 1 : 0
                 )
               }
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 h-12 w-12 p-0 bg-black/50 hover:bg-black/70 text-white"
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
             >
               <ChevronRight className="h-8 w-8" />
-            </Button>
+            </button>
           </>
         )}
 
         {/* Image counter */}
-        <div className="absolute top-4 left-4 text-white bg-black/50 px-3 py-1 rounded">
+        <div className="absolute top-4 left-4 text-white bg-black/70 px-3 py-1 rounded z-10 border border-white/20">
           {fullscreenImage + 1} / {images.length}
         </div>
 
