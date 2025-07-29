@@ -3,26 +3,24 @@ import Project from "@/types/project";
 export const projects: Project[] = [
   {
     id: "1",
-    imageLink: "https://placehold.co/300x300/png?text=Project+Image",
-    name: "Project One",
-    description: "This is a brief description of Project One.",
-    technologies: ["React", "Next.js", "TypeScript"],
-    link: "#",
-  },
-  {
-    id: "2",
-    imageLink: "https://placehold.co/300x300/png?text=Project+Image",
-    name: "Project Two",
-    description: "This is a brief description of Project Two.",
-    technologies: ["Vue.js", "Nuxt.js", "JavaScript"],
-    link: "#",
-  },
-  {
-    id: "3",
-    imageLink: "https://placehold.co/300x300/png?text=Project+Image",
-    name: "Project Three",
-    description: "This is a brief description of Project Three.",
-    technologies: ["Angular", "TypeScript", "RxJS"],
-    link: "#",
+    imageLink: "/projects/reading-tracker/reading-tracker-1.png",
+    name: "Reading Tracker",
+    description:
+      "A comprehensive reading tracker application that helps users manage their reading goals, track progress, and discover new books. Features include book search, reading statistics and progress tracking.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "Shadcn",
+    ],
+    link: "https://reading-tracker-mnaggarse.vercel.app/",
+    images: [
+      "/projects/reading-tracker/reading-tracker-1.png",
+      "/projects/reading-tracker/reading-tracker-2.png",
+      "/projects/reading-tracker/reading-tracker-3.png",
+      "/projects/reading-tracker/reading-tracker-4.png",
+      "/projects/reading-tracker/reading-tracker-5.png",
+    ],
   },
 ];
