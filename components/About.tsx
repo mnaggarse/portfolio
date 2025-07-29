@@ -9,29 +9,22 @@ export default function About() {
       <h2 className="text-center text-4xl font-bold">About Me</h2>
       <div className="flex flex-col md:flex-row justify-center items-center gap-8">
         <Image
-          width="400"
-          height="400"
+          width="250"
+          height="250"
           src="/profile/profile.jpg"
           alt="Profile Picture"
           className="rounded-lg shadow-xl"
         />
         <div className="flex flex-col gap-4 px-2">
           <h3 className="text-xl font-bold">
-            Hello! I&apos;m Mahmoud, a passionate developer.
+            Hello! I&apos;m Mahmoud, a software engineer.
           </h3>
           <p className="text-slate-600 font-medium">
-            I&apos;m a full-stack developer who is creating digital solutions
-            that make a difference. I specialize in React, Node.js, and modern
-            web technologies.
-          </p>
-          <p className="text-slate-600 font-medium">
-            When I&apos;m not coding, you can find me exploring new
-            technologies, contributing to open source projects, or enjoying a
-            good cup of coffee while reading about the latest in tech.
-          </p>
-          <p className="text-slate-600 font-medium">
-            I believe in writing clean, maintainable code and creating user
-            experiences that are both beautiful and functional.
+            I’m a full-stack developer who enjoys turning ideas into real,
+            useful applications. I love learning new things, solving problems,
+            and improving the way I build software. I enjoy working with others,
+            sharing ideas, and staying organized as a team to deliver the best
+            results.
           </p>
         </div>
       </div>
