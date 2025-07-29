@@ -41,22 +41,22 @@ export default function Contact() {
           <h3 className="text-xl font-bold text-center">Connect With Me</h3>
           <div className="w-full px-2 flex justify-evenly items-center gap-4">
             <Link href="https://linkedin.com/in/mnaggarse">
-              <Image width="30" height="30" src="/linkedin.svg" alt="Github" />
+              <Image width="30" height="30" src="icons/linkedin.svg" alt="Github" />
             </Link>
             <Link href="https://github.com/mnaggarse">
-              <Image width="30" height="30" src="/github.svg" alt="Github" />
+              <Image width="30" height="30" src="icons/github.svg" alt="Github" />
             </Link>
             <Link href="https://t.me/mnaggarse">
-              <Image width="30" height="30" src="/telegram.svg" alt="Github" />
+              <Image width="30" height="30" src="icons/telegram.svg" alt="Github" />
             </Link>
             <Link href="https://wa.me/+201030740274">
-              <Image width="30" height="30" src="/whatsapp.svg" alt="Github" />
+              <Image width="30" height="30" src="icons/whatsapp.svg" alt="Github" />
             </Link>
             <Link href="https://x.com/Codinngar">
-              <Image width="30" height="30" src="/twitter.svg" alt="Github" />
+              <Image width="30" height="30" src="icons/twitter.svg" alt="Github" />
             </Link>
             <Link href="https://www.facebook.com/profile.php?id=61577113763659">
-              <Image width="30" height="30" src="/facebook.svg" alt="Github" />
+              <Image width="30" height="30" src="icons/facebook.svg" alt="Github" />
             </Link>
           </div>
         </CardContent>
