@@ -5,4 +5,5 @@ export default interface Project {
   description: string;
   technologies: string[];
   link: string;
+  images: string[];
 }
