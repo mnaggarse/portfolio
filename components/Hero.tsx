@@ -11,7 +11,7 @@ export default function Hero() {
         Mahmoud Elnaggar
       </h1>
 
-      <h3 className="text-xl text-slate-600">
+      <h3 className="text-lg md:text-xl text-slate-600">
         Software Engineer | Full Stack Developer
       </h3>
 
