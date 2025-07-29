@@ -11,7 +11,7 @@ export default function About() {
         <Image
           width="400"
           height="400"
-          src="https://placehold.co/400x400/png?text=Profile+Picture"
+          src="/profile.jpg"
           alt="Profile Picture"
           className="rounded-lg shadow-xl"
         />
@@ -20,9 +20,9 @@ export default function About() {
             Hello! I&apos;m Mahmoud, a passionate developer.
           </h3>
           <p className="text-slate-600 font-medium">
-            I&apos;m a full-stack developer with over 5 years of experience
-            creating digital solutions that make a difference. I specialize in
-            React, Node.js, and modern web technologies.
+            I&apos;m a full-stack developer who is creating digital solutions
+            that make a difference. I specialize in React, Node.js, and modern
+            web technologies.
           </p>
           <p className="text-slate-600 font-medium">
             When I&apos;m not coding, you can find me exploring new

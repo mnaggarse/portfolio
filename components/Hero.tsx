@@ -11,7 +11,9 @@ export default function Hero() {
         Mahmoud Elnaggar
       </h1>
 
-      <h3 className="text-xl text-slate-600">Full Stack Developer</h3>
+      <h3 className="text-xl text-slate-600">
+        Software Engineer | Full Stack Developer
+      </h3>
 
       <p className="max-w-[270px] md:max-w-[500px] text-slate-500">
         Crafting beautiful, functional, and user-centered digital experiences
@@ -22,9 +24,6 @@ export default function Hero() {
         <Link href="#projects">
           <Button size="lg">View My Work</Button>
         </Link>
-        <Button size="lg" variant="outline">
-          Download My CV
-        </Button>
       </div>
     </section>
   );
