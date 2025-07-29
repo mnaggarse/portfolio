@@ -71,7 +71,7 @@ export default function Modal({
         {/* Close button */}
         <button
           onClick={() => setFullscreenImage(null)}
-          className="absolute top-4 right-4 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
+          className="cursor-pointer absolute top-4 right-4 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
         >
           <X className="h-6 w-6" />
         </button>
@@ -85,7 +85,7 @@ export default function Modal({
                   fullscreenImage > 0 ? fullscreenImage - 1 : images.length - 1
                 )
               }
-              className="absolute left-4 top-1/2 transform -translate-y-1/2 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
+              className="cursor-pointer absolute left-4 top-1/2 transform -translate-y-1/2 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
             >
               <ChevronLeft className="h-8 w-8" />
             </button>
@@ -95,7 +95,7 @@ export default function Modal({
                   fullscreenImage < images.length - 1 ? fullscreenImage + 1 : 0
                 )
               }
-              className="absolute right-4 top-1/2 transform -translate-y-1/2 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
+              className="cursor-pointer absolute right-4 top-1/2 transform -translate-y-1/2 h-12 w-12 p-0 bg-black/70 hover:bg-black/90 text-white z-10 border border-white/20 hover:border-white/40 transition-all duration-200 rounded-md flex items-center justify-center"
             >
               <ChevronRight className="h-8 w-8" />
             </button>
