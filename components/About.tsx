@@ -11,7 +11,7 @@ export default function About() {
         <Image
           width="400"
           height="400"
-          src="/profile.jpg"
+          src="/profile/profile.jpg"
           alt="Profile Picture"
           className="rounded-lg shadow-xl"
         />
