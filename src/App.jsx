@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar";
-import Hero from "./sections/Hero";
+import Home from "./sections/Home";
+import About from "./sections/About";
 
 export default function App() {
   const { i18n } = useTranslation();
@@ -23,13 +24,14 @@ export default function App() {
   }, [i18n.language]);
 
   return (
-    <div className="px-4 xl:px-0 max-w-7xl mx-auto mt-8">
+    <div className="px-4 md:px-12 xl:px-0 max-w-7xl mx-auto pb-12">
       <Navbar changeLanguage={changeLanguage} />
 
       <div
         className={`transition-opacity duration-200 ${isSwitching ? "opacity-0" : "opacity-100"}`}
       >
-        <Hero />
+        <Home />
+        <About />
       </div>
     </div>
   );

@@ -7,6 +7,7 @@
 
 * {
   font-family: "Rubik";
+  scroll-behavior: smooth;
 }
 
 body {
