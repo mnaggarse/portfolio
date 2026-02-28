@@ -71,37 +71,43 @@ export default function Contact() {
 
         <div className="flex justify-evenly items-center gap-2">
           <a
-            href="#"
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=61577113763659"
             className="text-gray-400 hover:text-black hover:-translate-y-1 transition-all"
           >
             <FaFacebook className="text-3xl md:text-4xl" />
           </a>
           <a
-            href="#"
+            target="_blank"
+            href="https://www.linkedin.com/in/mnaggarse"
             className="text-gray-400 hover:text-black hover:-translate-y-1 transition-all"
           >
             <FaLinkedin className="text-3xl md:text-4xl" />
           </a>
           <a
-            href="#"
+            target="_blank"
+            href="https://github.com/mnaggarse"
             className="text-gray-400 hover:text-black hover:-translate-y-1 transition-all"
           >
             <FaGithub className="text-3xl md:text-4xl" />
           </a>
           <a
-            href="#"
+            target="_blank"
+            href="https://t.me/mnaggarse"
             className="text-gray-400 hover:text-black hover:-translate-y-1 transition-all"
           >
             <FaTelegram className="text-3xl md:text-4xl" />
           </a>
           <a
-            href="#"
+            target="_blank"
+            href="https://wa.me/+201030740274"
             className="text-gray-400 hover:text-black hover:-translate-y-1 transition-all"
           >
             <IoLogoWhatsapp className="text-3xl md:text-4xl" />
           </a>
           <a
-            href="#"
+            target="_blank"
+            href="mailto:mnaggarse@gmail.com"
             className="text-gray-400 hover:text-black hover:-translate-y-1 transition-all"
           >
             <BiLogoGmail className="text-3xl md:text-4xl" />
