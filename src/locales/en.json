@@ -15,5 +15,13 @@
   "project-1-description": "I love creating visually compelling websites and landing pages optimized for conversions. My background in development allows me to seamlessly collaborate with other developers.",
   "project-2-title": "Resturant Landing Page",
   "project-2-description": "I have been active in app design since Apple's App Store debut in 2011, with my designs reaching over 3 million users worldwide.",
-  "project-get-in-touch": "Get in touch →"
+  "project-3-title": "Resturant Landing Page",
+  "project-3-description": "I have been active in app design since Apple's App Store debut in 2011, with my designs reaching over 3 million users worldwide.",
+  "project-preview": "Preview",
+  "contact-title": "Contact Me",
+  "contact-name-placeholder": "Name",
+  "contact-subject-placeholder": "Subject",
+  "contact-message-placeholder": "Message",
+  "contact-send": "Send Email",
+  "contact-social-media": "Social Media"
 }

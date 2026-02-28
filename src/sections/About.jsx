@@ -9,13 +9,13 @@ export default function About() {
         {t("about-title")}
       </h1>
       <div className="space-y-4">
-        <p className="text-xl md:text-2xl text-gray-600">
+        <p className="text-lg md:text-2xl text-gray-600">
           {t("about-paragraph-1")}
         </p>
-        <p className="text-xl md:text-2xl text-gray-600">
+        <p className="text-lg md:text-2xl text-gray-600">
           {t("about-paragraph-2")}
         </p>
-        <p className="text-xl md:text-2xl text-gray-600">
+        <p className="text-lg md:text-2xl text-gray-600">
           {t("about-paragraph-3")}
         </p>
       </div>

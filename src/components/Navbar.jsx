@@ -22,7 +22,9 @@ export default function Navbar({ changeLanguage }) {
 
   return (
     <nav className="md:max-w-7xl md:left-1/2 md:-translate-x-1/2 w-full fixed top-0 left-0 flex justify-between items-center p-4 border-b-2 bg-[#f4f4f4] z-10 border-gray-200">
-      <FaCentercode size={40} />
+      <a href="#home">
+        <FaCentercode size={40} />
+      </a>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex justify-between items-center gap-6">

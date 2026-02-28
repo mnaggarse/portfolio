@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar";
 import About from "./sections/About";
+import Contact from "./sections/Contact";
 import Home from "./sections/Home";
 import Projects from "./sections/Projects";
 
@@ -25,7 +26,7 @@ export default function App() {
   }, [i18n.language]);
 
   return (
-    <div className="px-4 md:px-12 xl:px-0 max-w-7xl mx-auto pb-12">
+    <div className="px-4 md:px-12 xl:px-0 max-w-7xl mx-auto">
       <Navbar changeLanguage={changeLanguage} />
 
       <div
@@ -34,6 +35,7 @@ export default function App() {
         <Home />
         <About />
         <Projects />
+        <Contact />
       </div>
     </div>
   );

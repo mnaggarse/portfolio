@@ -25,10 +25,12 @@ export default function Home() {
         <p className="text-2xl md:text-4xl font-medium text-gray-500 max-w-4xl">
           {t("home-description")}
         </p>
-        <button className="bg-black flex items-center gap-4 cursor-pointer text-white px-8 py-4 rounded-full font-medium hover:scale-105 active:scale-95 duration-75">
-          <IoMail className="text-2xl md:text-3xl" />
-          <span className="text-xl md:text-2xl">{t("home-contact")}</span>
-        </button>
+        <a href="#contact">
+          <button className="bg-black flex items-center gap-4 cursor-pointer text-white px-8 py-4 rounded-full font-medium hover:scale-105 active:scale-95 duration-75">
+            <IoMail className="text-2xl md:text-3xl" />
+            <span className="text-xl md:text-2xl">{t("home-contact")}</span>
+          </button>
+        </a>
       </div>
 
       {/* Desktop Image */}

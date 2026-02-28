@@ -3,12 +3,21 @@
     "id": 1,
     "title": "Clinic",
     "description": "I love creating visually compelling websites and landing pages optimized for conversions. My background in development allows me to seamlessly collaborate with other developers.",
-    "image": "/images/projects/clinic.png"
+    "image": "/images/projects/clinic.png",
+    "link": "#"
   },
   {
     "id": 2,
     "title": "Resturant Landing Page",
     "description": "I have been active in app design since Apple's App Store debut in 2011, with my designs reaching over 3 million users worldwide.",
-    "image": "/images/projects/resturant.png"
+    "image": "/images/projects/resturant.png",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Real Estate Website",
+    "description": "I have been active in app design since Apple's App Store debut in 2011, with my designs reaching over 3 million users worldwide.",
+    "image": "/images/projects/real-estate.png",
+    "link": "#"
   }
 ]
