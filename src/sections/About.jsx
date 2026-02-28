@@ -4,8 +4,8 @@ export default function About() {
   const { t } = useTranslation();
 
   return (
-    <div id="about" className="scroll-m-24">
-      <h1 className="text-5xl md:text-7xl font-bold mb-6">
+    <div id="about" className="scroll-m-24 mb-24">
+      <h1 className="text-4xl md:text-6xl font-semibold mb-6">
         {t("about-title")}
       </h1>
       <div className="space-y-4">

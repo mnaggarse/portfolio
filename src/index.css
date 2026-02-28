@@ -1,9 +1,9 @@
+@import "tailwindcss";
+
 @font-face {
   font-family: "Rubik";
   src: url("./fonts/Rubik.ttf");
 }
-
-@import "tailwindcss";
 
 * {
   font-family: "Rubik";

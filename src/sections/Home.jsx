@@ -13,7 +13,7 @@ export default function Home() {
       <div className="md:hidden w-[200px] h-[200px] mx-auto pt-4 rounded-full overflow-hidden border border-gray-200 shadow-lg mb-8">
         <img
           className="object-cover"
-          src="./images/man.png"
+          src="/images/man.png"
           alt="personal-photo"
         />
       </div>
@@ -35,7 +35,7 @@ export default function Home() {
       <div className="w-1/3 hidden md:block overflow-hidden">
         <img
           className="object-cover"
-          src="./images/man.png"
+          src="/images/man.png"
           alt="personal-photo"
         />
       </div>

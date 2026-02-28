@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import Navbar from "./components/Navbar";
-import Home from "./sections/Home";
 import About from "./sections/About";
+import Home from "./sections/Home";
+import Projects from "./sections/Projects";
 
 export default function App() {
   const { i18n } = useTranslation();
@@ -32,6 +33,7 @@ export default function App() {
       >
         <Home />
         <About />
+        <Projects />
       </div>
     </div>
   );

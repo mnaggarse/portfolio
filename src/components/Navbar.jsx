@@ -27,25 +27,25 @@ export default function Navbar({ changeLanguage }) {
       {/* Desktop Menu */}
       <div className="hidden md:flex justify-between items-center gap-6">
         <a
-          className="cursor-pointer border-b border-transparent duration-200 hover:border-black"
+          className="cursor-pointer border-b-2 border-transparent duration-200 hover:border-gray-600"
           href="#home"
         >
           {t("nav-home")}
         </a>
         <a
-          className="cursor-pointer border-b border-transparent duration-200 hover:border-black"
+          className="cursor-pointer border-b-2 border-transparent duration-200 hover:border-gray-600"
           href="#about"
         >
           {t("nav-about")}
         </a>
         <a
-          className="cursor-pointer border-b border-transparent duration-200 hover:border-black"
+          className="cursor-pointer border-b-2 border-transparent duration-200 hover:border-gray-600"
           href="#projects"
         >
           {t("nav-projects")}
         </a>
         <a
-          className="cursor-pointer border-b border-transparent duration-200 hover:border-black"
+          className="cursor-pointer border-b-2 border-transparent duration-200 hover:border-gray-600"
           href="#contact"
         >
           {t("nav-contact")}
@@ -73,32 +73,34 @@ export default function Navbar({ changeLanguage }) {
         <IoClose
           size={40}
           onClick={() => setIsMenuOpen(false)}
-          className="absolute top-8"
+          className={`absolute top-4 ${
+            i18n.language === "ar" ? "left-4" : "right-4"
+          }`}
         />
 
         <a
-          className="cursor-pointer text-3xl font-medium border-b border-transparent duration-200 hover:border-black"
+          className="cursor-pointer text-3xl font-medium"
           href="#home"
           onClick={() => setIsMenuOpen(false)}
         >
           {t("nav-home")}
         </a>
         <a
-          className="cursor-pointer text-3xl font-medium border-b border-transparent duration-200 hover:border-black"
+          className="cursor-pointer text-3xl font-medium"
           href="#about"
           onClick={() => setIsMenuOpen(false)}
         >
           {t("nav-about")}
         </a>
         <a
-          className="cursor-pointer text-3xl font-medium border-b border-transparent duration-200 hover:border-black"
+          className="cursor-pointer text-3xl font-medium"
           href="#projects"
           onClick={() => setIsMenuOpen(false)}
         >
           {t("nav-projects")}
         </a>
         <a
-          className="cursor-pointer text-3xl font-medium border-b border-transparent duration-200 hover:border-black"
+          className="cursor-pointer text-3xl font-medium"
           href="#contact"
           onClick={() => setIsMenuOpen(false)}
         >
